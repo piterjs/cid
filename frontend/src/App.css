@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 html {
   background: url(/logo.png) no-repeat #000;
@@ -9,4 +12,5 @@ html {
 }
 body {
   color: #fff;
+  font-family: 'Source Code Pro', monospace;
 }
