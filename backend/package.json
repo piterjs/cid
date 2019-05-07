@@ -1,0 +1,13 @@
+{
+	"name": "backend",
+	"version": "0.0.1",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint .",
+    "dev": "source .env && nodemon app.js"
+  },
+	"dependencies": {
+		"express": "^4.16.4",
+		"ws": "^7.0.0"
+	}
+}
