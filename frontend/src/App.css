@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: url(/logo.png) no-repeat #000;
+  background-position: center center;
+  min-height: 100%;
+}
+body {
+  color: #fff;
+}

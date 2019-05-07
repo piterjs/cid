@@ -1,0 +1,36 @@
+.loginform {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  font-size: 18px;
+  padding: 18px 36px;
+  border-radius: 4px;
+}
+
+.loginform h1 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.loginform label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.loginform label input {
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.loginform button {
+  margin-top: 8px;
+  padding: 8px;
+  font-size: 16px;
+}

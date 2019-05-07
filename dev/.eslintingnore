@@ -1,0 +1,7 @@
+/public/js/vendor
+/node_modules
+/bin
+/build
+/public
+**/*.test.js
+src/registerServiceWorker.js
